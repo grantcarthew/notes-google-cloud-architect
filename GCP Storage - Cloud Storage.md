@@ -1,6 +1,6 @@
 # Cloud Storage
 
-Cloud Storage is an internet-scale immutable BLOB store.
+[Cloud Storage](https://cloud.google.com/storage/docs/storage-classes) is an internet-scale immutable BLOB store.
 
 ## Features
 
