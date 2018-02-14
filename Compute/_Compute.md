@@ -1,8 +1,8 @@
 # Google Cloud Compute
 
 
-|               | App Engine Standard   | App Engine Flexible                  | Kubernetes Engine   |
-|---------------|-----------------------|--------------------------------------|---------------------|
-| Language      | Java, Python, Go, PHP | Any                                  | Any                 |
-| Service Model | PaaS                  | PaaS                                 | Hybrid              |
-| Primary Use   | Web/Mobile Apps       | Web/Mobile Apps, Container Workloads | Container Workloads |
+|               | Compute Eng | Kubernetes Eng | App Eng Standard    | App Eng Flexible     |
+|---------------|-------------|----------------|---------------------|----------------------|
+| Language      | Any         | Any            | Java,Python,Go,PHP  | Any                  |
+| Service Model | IaaS        | Hybrid         | PaaS                | PaaS                 |
+| Primary Use   | VM Wklds    | Ctr Wklds      | Web/APIs            | Web/APIs, Ctr        |
