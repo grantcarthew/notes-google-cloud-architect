@@ -10,12 +10,12 @@ PS: When I finish this study I will tidy this repository up in the hope that it 
 
 ## Products and Services
 
-* [Compute](/Compute/)
-* [Storage](/Storage/README.md)
-* [Networking](/Networking/README.md)
-* [Big Data](/Big%20Data/README.md)
-* [Cloud AI](/Cloud%20AI/README.md)
-* [Tools](/Tools/README.md)
+* [Compute](/Compute)
+* [Storage](/Storage)
+* [Networking](/Networking)
+* [Big Data](/Big%20Data)
+* [Cloud AI](/Cloud%20AI)
+* [Tools](/Tools)
 
 ## Building Documents
 
