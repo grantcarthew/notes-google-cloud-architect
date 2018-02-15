@@ -1,5 +1,8 @@
 # Online Courses 
 
+https://cloud.google.com/training
+https://cloud.google.com/training/exams
+
 ## Coursera
 
 * GCP Fundamentals: Core Infrastructure

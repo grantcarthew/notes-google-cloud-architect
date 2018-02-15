@@ -11,3 +11,19 @@
 * Pay for storage and processing only.
 * Discounts for long term data storage.
 
+# Points of Interest
+
+* Datasets:
+  * Are a grouping mechanizm that holds zero or more tables.
+  * Are the lowest unit of access control.
+  * Are owned by projects.
+* Object names are relative to the project.
+* Tables:
+  * Are the row-column structures that contain actual data within a dataset.
+  * Can not have access control.
+  * Have a schema.
+  * Have strongly-typed columns of values.
+  * Support views.
+  * Can be virtual defined by an SQL query.
+  * Can be external (federated).
+  * Can query Cloud Storage directly.

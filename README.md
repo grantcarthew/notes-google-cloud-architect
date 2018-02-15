@@ -13,8 +13,8 @@ PS: When I finish this study I will tidy this repository up in the hope that it 
 * [Compute](/Compute/README.md)
 * [Storage](/Storage/README.md)
 * [Networking](/Networking/README.md)
-* [Big Data](/Big-Data/README.md)
-* [Cloud AI](/Cloud-AI/README.md)
+* [Big Data](/Big Data/README.md)
+* [Cloud AI](/Cloud AI/README.md)
 * [Tools](/Tools/README.md)
 
 ## Building Documents
