@@ -2,7 +2,7 @@
 
 * Cloud Launcher: lets you quickly deploy software on Google Cloud Platform.
 
-* Organization Resource: is the root node in the GCP recourse hierarchy.
+* Organization Resource: is the root node in the GCP resource hierarchy.
   * GCP users are not required to have an Organization resource.
   * Only required if they are GSuite or Cloud Identity customers.
   * Projects belong to the Organization rather than the employee.

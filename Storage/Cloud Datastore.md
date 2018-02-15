@@ -8,7 +8,7 @@ Highly scalable NoSQL database supporting billions of rows.
 * Built-in redundancy.
 * Supports ACID transactions.
 * Includes a free daily quota.
-* RESTful Interace.
+* RESTful Interface.
 * Simulate on your local machine.
 
 ## Terms

@@ -4,9 +4,8 @@
 
 ## Features
 
-* Unlimited storage.
+* Unlimited storage scalable to exabytes of data.
 * Single API across storage classes.
-* Scalable to exabytes of data.
 * Data encrypted in-flight and at rest.
 * 11 nines durability through erasure coding.
 * Object versioning.
@@ -23,7 +22,7 @@ __Note:__ Availability refers to system uptime where as durability refers to lon
 
 Content is stored in Buckets that contain a globally unique name, a location, and a default storage class. If you do not specify a default storage class you will see the bucket listed as Standard Storage in the API. Objects stored in a Standard Storage bucket will be regional or mulit-regional depending on where the bucket is stored.
 
-Storeage classes only apply to objects within Cloud Storage. You can change the storage class of an object or a bucket. Changing the storage class of a bucket will only affect new objects.
+Storeage classes only apply to the objects within Cloud Storage, not the Buckets. You can change the storage class of an object or a bucket. Changing the storage class of a bucket will only affect new objects.
 
 All storage classes offer the same throuput, low latency, and high durability.
 

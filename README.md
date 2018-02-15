@@ -10,7 +10,7 @@ PS: When I finish this study I will tidy this repository up in the hope that it 
 
 ## Building Documents
 
-These notes can be build into PDF (or any format for that matter) to make it easier to read and review.
+These notes can be built into PDF (or any format for that matter) to make it easier to read and review.
 
 There is a pre-built set of PDF documents in the [pdf](/pdf) directory.
 

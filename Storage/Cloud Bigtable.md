@@ -23,7 +23,7 @@ It supports HBase API for access and native compatibility with Hadoop systems.
 
 Use Bigtable when you need very high throughput and scalability for non-structured key/value data where each value is typically less than 10 MB.
 
-Bigtable is also excels for:
+Bigtable also excels for:
 
 * MapReduce operations.
 * Stream processing / analytics.

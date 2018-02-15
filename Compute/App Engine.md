@@ -25,12 +25,16 @@ You would choose the flexible environment when your applications need more flexi
 
 Pricing is based on Compute Engine usage.
 
+## Standard vs Flexible
+
 |                     | Standard Environment     | Flexible Environment |
 |---------------------|--------------------------|----------------------|
 | Instance startup    | Milliseconds             | Minutes              |
 | SSH Access          | No                       | Yes (not default)    |
-| Scaling             | Manual, basic, automatic | Manual, automatic    |
+| Scaling             | Manual, Basic, Automatic | Manual, Automatic    |
 | Write to local disk | No                       | Yes (ephemeral)      |
 | 3rd Pty Bin Support | No                       | Yes                  |
 | Network Access      | Via App Engine Services  | Yes                  |
 | Customizable Stack  | No                       | Yes                  |
+
+> Basic Scaling - A service with basic scaling will create an instance when the application receives a request. The instance will be turned down when the app becomes idle. Basic scaling is ideal for work that is intermittent or driven by user activity.
