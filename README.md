@@ -8,6 +8,15 @@ Walk away, nothing to see here.....
 
 PS: When I finish this study I will tidy this repository up in the hope that it will help someone else.
 
+## Products and Services
+
+* [Compute](/Compute/README.md)
+* [Storage](/Storage/README.md)
+* [Networking](/Networking/README.md)
+* [Big Data](/Big-Data/README.md)
+* [Cloud AI](/Cloud-AI/README.md)
+* [Tools](/Tools/README.md)
+
 ## Building Documents
 
 These notes can be built into PDF (or any format for that matter) to make it easier to read and review.

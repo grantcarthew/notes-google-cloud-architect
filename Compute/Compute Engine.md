@@ -23,3 +23,10 @@ Google Compute Engine lets you create and run virtual machines on Google infrast
 * High throughput to storage at no extra cost.
 * Custom machine types allow you to only pay for what you need.
 
+## Points of Interest
+
+* Windows virtual machines require you to set a username and password.
+* Configuration management options include:
+  * Startup script for Compute instances.
+  * Google Cloud Deployment Manager.
+  * Open-source tools such as Pupper, Chef, Salt, and Ansible.

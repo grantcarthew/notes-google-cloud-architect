@@ -4,7 +4,7 @@
 
 Cloud SQL makes it easy to setup, maintain, manage and administor your RDBMS in the cloud.
 
-# Features
+## Features
 
 * MySQL or PostgreSQL databases in the cloud.
 * Backups and patches are automatic.
