@@ -16,7 +16,3 @@ There are a number of different storage options in the Google Cloud Platform.
 | Complex Queries | No             | No              | No                      | Yes        |
 | Good For        | Bin or Object  | App Engine      | Flat Heavey Read/Write  | Web / Apps |
 
-
-
-## Decision Flowchart credit to Google Docs.
-![Google Storeage Options Flowchart](https://cloud.google.com/images/storage-options/flowchart.svg)
