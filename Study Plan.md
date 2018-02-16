@@ -9,7 +9,7 @@ To learn the technologies to become a Google Cloud Architect you need to become 
 * Serverless architecture.
 * Application supporting technologies such as message queues etc.
 
-The reason for the using or not using the design components in the above list is not part of this study plan.
+The reason for using or not using the design components in the above list is not part of this study plan.
 
 ## Study Plan Steps
 
@@ -21,6 +21,10 @@ The reason for the using or not using the design components in the above list is
 ### Review Certification Resources
 
 * [Certification Exam Guide](https://cloud.google.com/certification/guides/cloud-architect/)
+
+### Attend Instructor-Led Training
+
+* [Cloud Infrastructure](https://cloud.google.com/training/cloud-infrastructure)
 
 ### Attend Online Training
 

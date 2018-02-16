@@ -11,3 +11,10 @@
 * Integrates with GCP services like Cloud Storage, Cloud Pub/Sub, BigQuery, Bigtable.
 * Open source Java and Python SDKs.
 
+## Concepts
+
+* Pipeline: Data processing and transformation flow.
+* PCollection: A set of data in your Pipeline.
+* Transformation: Processing done on the PCollections in the Pipeline.
+
+PCollection => Pipeline => Transformation => Pipeline => PCollection
