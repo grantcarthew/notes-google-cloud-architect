@@ -7,7 +7,7 @@
 * Simple RESTful API.
 * Object detection and classification.
 
-## When to Use?
+## When to use?
 
 * Gain insight from images.
 * Detect inappropriate content.

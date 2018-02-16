@@ -12,7 +12,7 @@
 * Scale clusters up and down even when jobs are running.
 * Tools including RESTful API and GCP SDK integration.
 
-## When to Use?
+## When to use?
 
 * Migrate on-prem Hadoop jobs to the cloud.
 * Analyze data stored in Cloud Storage.

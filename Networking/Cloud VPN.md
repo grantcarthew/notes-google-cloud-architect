@@ -12,7 +12,7 @@
 
 __Note:__ ESP Authentication Headers (AH) or ESP in Transport mode are not supported.
 
-## When to Use?
+## When to use?
 
 * When you have a dedicated client side VPN gateway.
 * Point-to-site VPN is not supported.
