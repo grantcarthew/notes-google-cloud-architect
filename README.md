@@ -8,6 +8,13 @@ Walk away, nothing to see here.....
 
 PS: When I finish this study I will tidy this repository up in the hope that it will help someone else.
 
+# Index
+
+* [Study Plan](/Study%20Plan.md)
+* [References](/References.md)
+* [Products and Services](#products-and-services)
+* [Build PDF](#build-pdf)
+
 ## Products and Services
 
 * [Compute](/Compute)
@@ -17,7 +24,7 @@ PS: When I finish this study I will tidy this repository up in the hope that it 
 * [Cloud AI](/Cloud%20AI)
 * [Tools](/Tools)
 
-## Building Documents
+## Build PDF
 
 These notes can be built into PDF (or any format for that matter) to make it easier to read and review.
 
