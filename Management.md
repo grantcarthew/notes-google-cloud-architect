@@ -16,6 +16,8 @@ Command line tools:
 * gsutil: Manage storage.
 * bq: Interacting with BigQuery.
 
+_Note that gsutil is a seperate utility because it also interacts with AWS S3 buckets._
+
 ## RESTful APIs
 
 APIs need to be enabled before they can be used. Enable through the APIs and Services interface.
