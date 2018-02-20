@@ -21,4 +21,5 @@ VPC Network Details:
 * Multiple Interfaces can connect instances to multiple networks.
 * Traffic between networks go out through the Google edge routers.
 * Network design is not hierarchical based like in physical networks. Use subnets to group resources such as departments.
+* Deleting a custom network requires you to delete subnets first.
 
