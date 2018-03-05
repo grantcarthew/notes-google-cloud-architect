@@ -15,5 +15,5 @@
 * Recommendation systems.
 * Anomaly or fraud detection.
 * Image analysis.
-* Test analysis.
+* Text analysis.
 * Sentiment analysis.
