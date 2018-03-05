@@ -9,7 +9,7 @@
 * Managed instances with high availability through transparent, synchronous, built-in data replication.
 * Regional and multi-regional instance configurations.
 
-## When to use?
+## When to Use
 
 * Relational, structured and semi-structured data.
 * High availability.

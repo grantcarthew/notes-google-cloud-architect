@@ -19,7 +19,7 @@ It supports HBase API for access and native compatibility with Hadoop systems.
 * Integrates with Cloud Dataflow and Cloud Dataproc.
 * On-premise to cloud base operations supported.
 
-## When to use?
+## When to Use
 
 Use Bigtable when you need very high throughput and scalability for non-structured key/value data where each value is typically less than 10 MB.
 

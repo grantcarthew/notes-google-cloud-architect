@@ -9,7 +9,7 @@
 * Integrates with BigQuery and Cloud Storage.
 * Pre-trained machine learning models including vision, speech, and translation.
 
-## When to use?
+## When to Use
 
 * Data classification and regression analysis.
 * Recommendation systems.

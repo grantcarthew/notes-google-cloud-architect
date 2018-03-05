@@ -16,7 +16,7 @@ Cloud SQL makes it easy to setup, maintain, manage and administor your RDBMS in 
 * Horizontal scaling with read-only replicas.
 * Familiar database with native tools.
 
-# When to use?
+# When to Use
 
 * Existing on-premis database migrations.
 * Common RDBMS workloads.
