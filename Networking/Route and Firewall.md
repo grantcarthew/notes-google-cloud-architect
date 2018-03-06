@@ -17,6 +17,8 @@ Billing is for egress:
 * From one region to another in the same network.
 * Between zones within a region.
 
+Regardless of the network type (default, auto, or custom), when you create a subnet manually, a corresponding subnet route is created. These subnet routes are used to route traffic to the other subnets within the network. They are labeled `defaut-route-####`.
+
 ## Firewall Rules
 
 Networks can have both ingress and egress firewall rules.

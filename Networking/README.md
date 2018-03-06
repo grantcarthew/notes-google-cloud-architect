@@ -5,9 +5,9 @@ It is built on a global fiber infrastructure. It is one of the world's largest a
 
 ## Virtual Private Cloud Network
 
-A project can contain upto 5 VPC networks.
+A project can contain up to 5 VPC networks.
 
-VPC Network Details: 
+VPC Network Details:
 
 * Subnets:
   * Are the logical isolation partitions for the VPC network.
@@ -16,10 +16,22 @@ VPC Network Details:
 * Projects are provided with a default network:
   * Has preset configurations and firewall rules.
   * Can be customized.
-* Can have upto 5 networks per Project.
+* Can have up to 5 networks per Project.
 * Instances connect up to networks using interfaces.
 * Multiple Interfaces can connect instances to multiple networks.
 * Traffic between networks go out through the Google edge routers.
 * Network design is not hierarchical based like in physical networks. Use subnets to group resources such as departments.
 * Deleting a custom network requires you to delete subnets first.
 
+## Topology Summary
+
+* Projects can have up to 5 networks.
+* Networks span the globe.
+* Internal DNS works for the entire network.
+* Firewall rules apply to the entire network.
+* Subnets are regional and span zones.
+* Subnets enable easier service isolation with firewall rules.
+* Default routes are created when you create subnets.
+* Communication between networks requires external IP addresses.
+* Billed for traffic between networks.
+* Small bill for traffic between regions.
