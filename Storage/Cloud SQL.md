@@ -14,6 +14,7 @@ Cloud SQL makes it easy to setup, maintain, manage and administor your RDBMS in 
 * Firewall configuration to grant access.
 * Vertically scalable (16 cores, 100GB RAM).
 * Horizontal scaling with read-only replicas.
+* Access control through native Database security.
 * Familiar database with native tools.
 
 # When to Use

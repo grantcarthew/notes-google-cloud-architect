@@ -8,6 +8,7 @@
 * SQL support with `ALTER` statements for schema changes.
 * Managed instances with high availability through transparent, synchronous, built-in data replication.
 * Regional and multi-regional instance configurations.
+* Integration with IAM including permissions: admin, databaseAdmin, databaseReader, databaseUser, and viewer.
 
 ## When to Use
 
