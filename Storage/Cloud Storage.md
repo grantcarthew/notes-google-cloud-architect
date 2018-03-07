@@ -9,7 +9,7 @@
 * Data encrypted in-flight and at rest.
 * 11 nines durability through erasure coding.
 * Object versioning.
-* Object notification.
+* Object change notification.
 * Access logging.
 * Lifecycle management.
 * Per-object storage classes.
@@ -17,14 +17,13 @@
 
 __Note:__ Availability refers to system uptime where as durability refers to long-term data protection.
 
-
 ## Bucket Default Storage Classes
 
 Content is stored in Buckets that contain a globally unique name, a location, and a default storage class. If you do not specify a default storage class you will see the bucket listed as Standard Storage in the API. Objects stored in a Standard Storage bucket will be regional or mulit-regional depending on where the bucket is stored.
 
 Storeage classes only apply to the objects within Cloud Storage, not the Buckets. You can change the storage class of an object or a bucket. Changing the storage class of a bucket will only affect new objects.
 
-All storage classes offer the same throuput, low latency, and high durability.
+All storage classes offer the same throughput, low latency, and high durability.
 
 ### Multi-Regional Storage
 
@@ -62,3 +61,26 @@ Use Coldeline Storage for data you expect to access infrequently (i.e., no more 
 * Higher per-operation costs.
 * 90-day minimum storage duration.
 
+## Changing Bucket Class
+
+Regional <=> Nearline or Coldline
+Nearline (Regional) <=> Regional or Coldline
+Coldline (Regional) <=> Regional or Nearline
+
+Multi-Regional <=> Nearline or Coldline
+Nearline (Multi-Regional) <=> Multi-Regional or Coldline
+Coldline (Multi-Regional) <=> Multi-Regional or Nearline
+
+Creating a Bucket as either Nearline or Coldline will set its location type to Multi-Regional.
+
+## Access Control Lists (ACLs)
+
+* Supports Owner, Writer, and Reader permissions.
+* Use a Signed URL to use time-limited access with specific operations (GET/PUT/DELETE/POST).
+
+## Object Transfer
+
+* High performance imports of online data.
+* Imports from GCP Buckets, S3 Buckets, or Web source.
+* Supports schedules, filtering.
+* Offline Media Import / Export via third party service providers.

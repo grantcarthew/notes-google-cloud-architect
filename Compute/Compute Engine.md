@@ -97,6 +97,20 @@ Google Compute Engine lets you create and run virtual machines on Google infrast
 | 2-4 Cores   | 64         |
 | 8 or more   | 128        |
 
+## Moving a VM to a new zone
+
+* Manual process:
+  * Shapshot all persistent disks on the source VM.
+  * Create new persistent disks in destination zone restored from snapshots.
+  * Promote ephemeral external IP to static external IP.
+  * Create new VM in the destination zone and attach new persistent disks.
+  * Assign static IP to new VM, demote to ephemeral.
+  * Update references to VM.
+  * Delete the snapshots, original disks, and original VM.
+* Automated process:
+  * `gcloud compute instances move`
+  * Update references to VM.
+
 ## Performance Management
 
 * Region choice affects machine type and CPU architecture options.
