@@ -6,3 +6,4 @@
 
 * Uses anycast to route requests to the nearest location.
 * Supports modern DNS standards.
+* 100% SLA.
