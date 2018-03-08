@@ -35,3 +35,13 @@ VPC Network Details:
 * Communication between networks requires external IP addresses.
 * Billed for traffic between networks.
 * Small bill for traffic between regions.
+
+## Interconnection Options
+
+Connecting your office directly to the Google network you will have private access to all of the services that Google offers including GCP, GMail, Maps, YouTube, etc.
+
+There are three options to interconnect:
+
+1. VPN and Cloud Router.
+1. Cloud Interconnect.
+1. Direct Peering.

@@ -12,6 +12,11 @@
 
 __Note:__ ESP Authentication Headers (AH) or ESP in Transport mode are not supported.
 
+## Performance
+
+* Each VPN has a maximum throughput of 3Gbps.
+* Use Equal-Cost Multipath (ECMP) routing over multiple VPNs to achieve greater overall throughput.
+
 ## When to Use
 
 * When you have a dedicated client side VPN gateway.
