@@ -19,7 +19,7 @@ VPC Network Details:
 * Can have up to 5 networks per Project.
 * Instances connect up to networks using interfaces.
 * Multiple Interfaces can connect instances to multiple networks.
-* Traffic between networks go out through the Google edge routers.
+* Traffic between networks go out through the Google edge routers (Use VPC Peering to avoid).
 * Network design is not hierarchical based like in physical networks. Use subnets to group resources such as departments.
 * Deleting a custom network requires you to delete subnets first.
 
