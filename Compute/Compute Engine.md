@@ -144,3 +144,25 @@ Google Compute Engine lets you create and run virtual machines on Google infrast
 * No charge for stopped instances apart from attached disks and IPs.
 * Same charge for different CPU architectures. Choose your region wisely.
 
+## Autoscaling
+
+* Automatically scale the number of instances in the managed instance group based on workload.
+* Can reduce costs by shutting down instances when not required.
+* Create one autoscaler per managed instance group.
+* Support both zone-based managed instance groups or regional managed instance groups.
+* It is fast responding typically within a 1 minute moving window.
+* Policies include Max and Min number of replicas.
+* Policy options:
+  * Average CPU utilization.
+  * HTTP load balancing serving capacity (backend service definition for Max CPU or Max req/sec/instance.)
+  * Stackdriver standard and custom metrics.
+  * Google Cloud Pub/Sub queuing workload.
+* Supports up to 5 policies.
+* Use Stackdriver custom metrics to autoscale more accurately to your application workload.
+
+### Autoscaler Configuration
+
+1. Create instance template (startup scripts, shutdown scripts, software, logging).
+1. Create managed instance group.
+1. create autoscaler.
+1. Optionally, define multiple policies.
