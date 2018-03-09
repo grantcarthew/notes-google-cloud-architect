@@ -9,10 +9,15 @@ _Credit to [reddit user lpetrazickis](https://www.reddit.com/r/bigdata/comments/
 * Fast, easy, managed way to run Hadoop and Spark/Hive/Pig.
 * Benefit from cloud integration (Storage, Stackdriver, etc).
 * Customize and configure clusters with initialization actions.
-* Create clusters in 90 sec or less.
+* Create clusters in __90 sec or less__.
 * Pay-per-minute billing.
 * Scale clusters up and down even when jobs are running.
 * Tools including RESTful API and GCP SDK integration.
+* Can be managed using Hadoop native tools such as:
+  * [YARN Web UI](http://hadooptutorial.info/yarn-web-ui/).
+  * [HDFS Web UI](http://hadooptutorial.info/hdfs-web-ui/).
+  * SSH.
+  * SOCKS.
 
 ## When to Use
 

@@ -66,19 +66,4 @@ Types:
 
 ## Deployment Manager
 
-A declarative infrastructure automation tool.
-
-* Creates GCP resources.
-* Not limited to 1 VM like Instance Templates.
-* A hosted alternative to Puppet, Chef, Terraform and AWS Cloud Formation.
-
-### Deployment Manager Features
-
-* Deployed using a .yaml configuration file which may reference templates.
-* Templates are written in jinja2 or python files.
-* Templates can be nested (isolate configuration files, reusable assets, etc).
-* Templates can use two types of variables:
-  * Template variables.
-  * Environment variables.
-* Support startup scripts and metadata capabilities.
-* Deployments can be updated (adding or removing resources).
+See the Tools/Deployment Manager document.

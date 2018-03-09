@@ -6,5 +6,9 @@ With Cloud Functions you write simple, single-purpose functions that are attache
 
 ## Features
 
-* Execute in a managed Node.js environment.
+* Event-based microservices.
+* Execute in a fully managed, serverless, Node.js environment.
 * Connect and extend cloud services such as Cloud Storage, Cloud Pub/Sub, and more.
+* Deploy functions from Cloud Storage Bucket, GitHub or Bitbucket.
+* Trigger include Cloud Pub/Sub, HTTP, Cloud Storage.
+* Stackdriver integration.
