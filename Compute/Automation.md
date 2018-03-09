@@ -72,9 +72,13 @@ A declarative infrastructure automation tool.
 * Not limited to 1 VM like Instance Templates.
 * A hosted alternative to Puppet, Chef, Terraform and AWS Cloud Formation.
 
-## Features
+### Deployment Manager Features
 
+* Deployed using a .yaml configuration file which may reference templates.
+* Templates are written in jinja2 or python files.
 * Templates can be nested (isolate configuration files, reusable assets, etc).
-* Templates can use environment variables.
+* Templates can use two types of variables:
+  * Template variables.
+  * Environment variables.
 * Support startup scripts and metadata capabilities.
 * Deployments can be updated (adding or removing resources).
