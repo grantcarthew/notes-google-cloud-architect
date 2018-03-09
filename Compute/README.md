@@ -20,3 +20,5 @@
 | Service Model | Microservices Architecture |
 | Scaling       | Serverless                 |
 | Primary Use   | Lightweight Event Actions  |
+
+_Note: GKE is a Container First system while GAE is a Code First system._
