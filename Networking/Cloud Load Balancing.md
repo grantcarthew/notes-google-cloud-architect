@@ -2,11 +2,13 @@
 
 [Google Cloud Load Balancing](https://cloud.google.com/compute/docs/load-balancing/) can be used to load balance user requests among sets of instances.
 
-| Protocols | Internet | Internal | Single Region | Multi-Region | Proxys             |
-|-----------|----------|----------|---------------|--------------|--------------------|
-| HTTP(S)   | Yes      | No       | Yes           | Yes          | Rule-based routing |
-| TCP       | Yes      | Yes      | Yes           | No           | TCP / SSL          |
-| UDP       | Yes      | Yes      | Yes           | No           | No                 |
+| Protocols | Internet | Internal | Single Region | Multi-Region |
+|-----------|----------|----------|---------------|--------------|
+| HTTP(S)   | Yes      | No       | Yes           | Yes          |
+| TCP       | Yes      | Yes      | Yes           | No           |
+| UDP       | Yes      | Yes      | Yes           | No           |
+| TCP Proxy | Yes      | No       | Yes           | Yes          |
+| SSL Proxy | Yes      | No       | Yes           | Yes          |
 
 ## Features
 
