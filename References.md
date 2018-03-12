@@ -11,8 +11,6 @@
 * [Documentation](https://cloud.google.com/docs/)
 * [Blog](https://cloudplatform.googleblog.com/)
 * [YouTube](https://www.youtube.com/user/googlecloudplatform/videos)
-
-
 * [Console](https://console.cloud.google.com/)
 * [Products and Services](https://cloud.google.com/products/)
 

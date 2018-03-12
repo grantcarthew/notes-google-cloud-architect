@@ -32,7 +32,7 @@ Google Container Engine (GKE) has been officially [renamed](https://cloudplatfor
 ## Pods
 
 * The abstraction to represent an application.
-* Hods one or more containers.
+* Holds one or more containers.
 * Containers in a pod share:
   * A single IP address and namespace.
   * Access to storage.
@@ -47,7 +47,7 @@ Rules for how to autoscale the GKE services.
 
 ## GKE Topology Summary
 
-```md
+```json
 Container Cluster: Holds the Master and container nodes (instances).
             Nodes: Receive part or whole deployments.
        Deployment: Define GKE Services.

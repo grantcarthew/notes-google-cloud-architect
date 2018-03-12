@@ -64,7 +64,9 @@ Use Coldeline Storage for data you expect to access infrequently (i.e., no more 
 ## Changing Bucket Class
 
 Regional <=> Nearline or Coldline
+
 Nearline (Regional) <=> Regional or Coldline
+
 Coldline (Regional) <=> Regional or Nearline
 
 Multi-Regional <=> Nearline or Coldline
@@ -73,10 +75,13 @@ Coldline (Multi-Regional) <=> Multi-Regional or Nearline
 
 Creating a Bucket as either Nearline or Coldline will set its location type to Multi-Regional.
 
-## Access Control Lists (ACLs)
+## Access Control
 
-* Supports Owner, Writer, and Reader permissions.
-* Use a Signed URL to use time-limited access with specific operations (GET/PUT/DELETE/POST).
+* IAM - Broad control but not fine-grained control over object in Buckets.
+* ACLs - Control access to individual object on Buckets. Supports Owner, Writer, and Reader permissions.
+* Signed URL - Time-limited access with specific operations (GET/PUT/DELETE/POST).
+* Signed Policy Documents - Greater control over size, content type, and other upload characteristics than signed URLs.
+* Firebase Security Rules - ABAC.
 
 ## Object Transfer
 

@@ -30,6 +30,3 @@ Solutions Continuum
 |---------------------|---------------------|-----------------------|---------|-------------------------|
 | CPU, Mem, Disk, NIC | Server VM Instances | Clusters, Cluster Man |         | Serverless, Autoscaling |
 | IT Ops              | Sys Ops             | Dev Ops               | Low Ops | No Ops                  |
-
-
- 

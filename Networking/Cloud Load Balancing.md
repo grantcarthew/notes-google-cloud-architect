@@ -15,7 +15,7 @@
   * SSL Proxy load balancing.
   * TCP Proxy load balancing.
 * Regional external load balancing (TCP/UDP).
-* Regional Internal load balancing (TCP/UDP).
+* Regional internal load balancing (TCP/UDP).
 * HTTP(S) will terminate on the load balancer (central SSL certificates).
 * Can use TCP load balancer for HTTP(S) however it will terminate on the instance.
 * Integrates with Managed Instance Groups.
@@ -75,7 +75,7 @@
   * If health check sees a failed service, re-create the instance.
 * Balances instances across three zones in a region.
 
-### Reginal Managed Instance Groups Best Practices
+### Regional Managed Instance Groups Best Practices
 
 * Overprovision your services.
 * Test using the "failure_zone" special tag.

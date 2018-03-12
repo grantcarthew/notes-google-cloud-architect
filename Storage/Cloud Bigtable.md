@@ -35,4 +35,4 @@ What is HBase?
 
 > HBase is an open-source, non-relational, distributed database modeled after Google's Bigtable and is written in Java. It is developed as part of Apache Software Foundation's Apache Hadoop project and runs on top of HDFS (Hadoop Distributed File System), providing Bigtable-like capabilities for Hadoop. That is, it provides a fault-tolerant way of storing large quantities of sparse data.
 
-_Credit [Wikipedia](https://en.wikipedia.org/wiki/Apache_HBase)
+_Credit [Wikipedia](https://en.wikipedia.org/wiki/Apache_HBase)_

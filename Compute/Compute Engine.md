@@ -119,7 +119,7 @@ Google Compute Engine lets you create and run virtual machines on Google infrast
 * Network throughput is 2Gbps per vCPU up to 16Gbps for 8 vCPUs.
 * Disk throughput is tied to the network throughput.
 * Disk IOPs is tied to the disk size.
-* Local SSH is ephemeral and ties the instance to the hardware.
+* Local SSD is ephemeral and ties the instance to the hardware.
 
 ## Availability Policy
 

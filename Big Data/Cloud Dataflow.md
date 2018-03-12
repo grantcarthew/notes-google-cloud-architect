@@ -38,7 +38,7 @@ BigQuery => PCollection => Transform => PCollection 'A' Names
 
 Merge Pipeline:
 
-```
+```md
 BigQuery => PCollection => Transform => PCollection 'A' Names => Transform => PCollection 'A/B' Names
                                  \                                 /
                                   \  => PCollection 'B' Names =>  /
@@ -46,8 +46,26 @@ BigQuery => PCollection => Transform => PCollection 'A' Names => Transform => PC
 
 Multiple Input Pipeline:
 
+```md
+ BigQuery => PCollection Names & Addresses => Transform => PCollection Names/Addresses/Orders
+                                                /
+Cloud Storage => PCollection Names & Order =>  /
 ```
-     BigQuery => PCollection Names & Addresses => Transform => PCollection Names/Addresses/Orders
-                                                    /
-Cloud Storage => PCollection Names & Orders    =>  /
-```
+
+### Pipeline
+
+In the Dataflow SDKs, a pipeline represents a data processing job. You build a pipeline by writing a program using a Dataflow SDK. A pipeline consists of a set of operations that can read a source of input data, transform that data, and write out the resulting output.
+
+### PCollection
+
+A PCollection represents a potentially large, immutable "bag" of elements. There is no upper limit on how many elements a PCollection can contain; any given PCollection might fit in memory, or it might represent a very large data set backed by a persistent data store.
+
+A PCollection has several key aspects in which it differs from a regular collection class:
+
+* A PCollection is immutable. Once created, you cannot add, remove, or change individual elements.
+* A PCollection does not support random access to individual elements.
+* A PCollection belongs to the pipeline in which it is created. You cannot share a PCollection between Pipeline objects.
+
+### Transform
+
+In a Dataflow pipeline, a transform represents a step, or a processing operation that transforms data. A transform can perform nearly any kind of processing operation, including performing mathematical computations on data, converting data from one format to another, grouping data together, reading and writing data, filtering data to output only the elements you want, or combining data elements into single values.
