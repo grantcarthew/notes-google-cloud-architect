@@ -1,27 +1,36 @@
 # Google Cloud Architect Notes
 
-This repository contains my notes for studying Google Cloud Platform.
+This repository contains my notes for studying the Google Cloud Platform to sit the Cloud Architect exam.
 
-It is incomplete and a mess.
+I passed the exam and am leaving this repository here for anyone else to use.
 
-Walk away, nothing to see here.....
+Either fork this repository or raise an issue and I will make you a contributor.
 
-PS: When I finish this study I will tidy this repository up in the hope that it will help someone else.
+__These notes have not been proof read or polished in any way.__
 
-# Index
+## Index
 
-* [Study Plan](/Study%20Plan.md)
-* [References](/References.md)
-* [Products and Services](#products-and-services)
+* [Acronyms](/Acronyms.md)
 * [Build PDF](#build-pdf)
+* [Courses](/Courses.md)
+* [Management](/Management.md)
+* [Overview](/Overview.md)
+* [PDF Version](/pdf)
+* [Products and Services](#products-and-services)
+* [References](/References.md)
+* [Study Plan](/Study%20Plan.md)
 
 ## Products and Services
 
-* [Compute](/Compute)
-* [Storage](/Storage)
-* [Networking](/Networking)
+* [Products and Services](Products%20and%20Services.md)
 * [Big Data](/Big%20Data)
 * [Cloud AI](/Cloud%20AI)
+* [Compute](/Compute)
+* [Design](/Design)
+* [Diagrams](/Diagrams)
+* [Networking](/Networking)
+* [Resource Manager](/Resource%20Manager)
+* [Storage](/Storage)
 * [Tools](/Tools)
 
 ## Build PDF
