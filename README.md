@@ -6,7 +6,7 @@ I passed the exam and am leaving this repository here for anyone else to use.
 
 Either fork this repository or raise an issue and I will make you a contributor.
 
-__These notes have not been proof read or polished in any way.__
+__These notes have not been proof read or polished in any way. They are accurate as of March 2018.__
 
 ## Index
 
