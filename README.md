@@ -12,9 +12,9 @@ __These notes have not been proof read or polished in any way. They are accurate
 
 * [Acronyms](/Acronyms.md)
 * [Build PDF](#build-pdf)
+* [Overview](/Overview.md)
 * [Courses](/Courses.md)
 * [Management](/Management.md)
-* [Overview](/Overview.md)
 * [PDF Version](/pdf)
 * [Products and Services](#products-and-services)
 * [References](/References.md)
