@@ -12,10 +12,10 @@ __These notes have not been proof read or polished in any way. They are accurate
 
 * [Acronyms](/Acronyms.md)
 * [Build PDF](#build-pdf)
+* [PDF Version](/pdf)
 * [Overview](/Overview.md)
 * [Courses](/Courses.md)
 * [Management](/Management.md)
-* [PDF Version](/pdf)
 * [Products and Services](#products-and-services)
 * [References](/References.md)
 * [Study Plan](/Study%20Plan.md)
