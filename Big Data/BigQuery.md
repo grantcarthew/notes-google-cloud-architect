@@ -14,7 +14,7 @@
 # Points of Interest
 
 * Datasets:
-  * Are a grouping mechanizm that holds zero or more tables.
+  * Are a grouping mechanism that holds zero or more tables.
   * Are the lowest unit of access control.
   * Are owned by projects.
 * Object names are relative to the project.
