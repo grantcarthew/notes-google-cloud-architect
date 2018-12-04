@@ -4,7 +4,7 @@
 
 ## Features
 
-* Translate arbitrary string between thousands of language pairs.
+* Translate arbitrary strings between thousands of language pairs.
 * Supports dozens of languages.
 * Detect a document's language.
 * Many client libraries available.
