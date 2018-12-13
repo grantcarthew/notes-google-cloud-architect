@@ -39,7 +39,7 @@ _Credit to [reddit user alk509](https://www.reddit.com/r/explainlikeimfive/comme
 What is Spark?
 
 > Spark is a framework for efficiently processing large amounts of data in parallel. It has built-in libraries for machine learning and other statistical analysis. It can be applied for data journalism, business analysis, or any other data science field.
-> In my experience, Spark is both much easier to work with and more efficient than traditional MapReduce or Hadoo, so Spark is displacing Hadoop within the Hadoop family of tools. Spark is also language agnostic, so you can apply your existing Python, R, SQL, or Scala skills with equal efficiency.
+> In my experience, Spark is both much easier to work with and more efficient than traditional MapReduce or Hadoop, so Spark is displacing Hadoop within the Hadoop family of tools. Spark is also language agnostic, so you can apply your existing Python, R, SQL, or Scala skills with equal efficiency.
 
 What is Hive?
 
