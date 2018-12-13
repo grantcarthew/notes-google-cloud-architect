@@ -9,7 +9,7 @@ App Engine manages the hardware, networking infrastructure, load balancing, moni
 Your code on Google containers.
 
 The App Engine standard environment is based on container instance running in Google's infrastructure.
-The containers used in the Standard Environment are specific to Google. Google provides runtimes for Java, Python, PHP and Go.
+The containers used in the Standard Environment are specific to Google. Google provides runtimes for Java, Node.JS, Python, PHP and Go.
 
 Sandbox constraints:
 
