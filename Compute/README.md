@@ -1,25 +1,11 @@
 # Google Cloud Compute
 
-|               | Compute Engine     | Kubernetes Engine   |
-|---------------|--------------------|---------------------|
-| Language      | Any                | Any                 |
-| Service Model | IaaS               | Hybrid (IaaS/PaaS)  |
-| Scaling       | Server Autoscaling | Cluster             |
-| Primary Use   | VM Workloads       | Container Workloads |
-
-|               | App Eng Standard    | App Eng Flexible     |
-|---------------|---------------------|----------------------|
-| Language      | Java,Python,Go,PHP  | Any                  |
-| Service Model | PaaS                | PaaS                 |
-| Scaling       | Autoscaling         | Autoscaling          |
-| Primary Use   | Web/APIs            | Web/APIs, Container  |
-
-|               | Cloud Functions            |
-|---------------|----------------------------|
-| Language      | Java,Python,Go,PHP         |
-| Service Model | Microservices Architecture |
-| Scaling       | Serverless                 |
-| Primary Use   | Lightweight Event Actions  |
+|               | Compute Engine     | Kubernetes Engine   | App Eng Standard            | App Eng Flexible     | Cloud Functions            |
+|---------------|--------------------|---------------------|-----------------------------|----------------------|----------------------------|
+| Language      | Any                | Any                 | Java,Python,Node.JS,Go,PHP  | Any                  | Node.JS,Python             |
+| Service Model | IaaS               | Hybrid (IaaS/PaaS)  | PaaS                        | PaaS                 | Microservices Architecture |
+| Scaling       | Server Autoscaling | Cluster             | Autoscaling                 | Autoscaling          | Serverless                 |
+| Primary Use   | VM Workloads       | Container Workloads | Web/APIs                    | Web/APIs, Container  | Lightweight Event Actions  |
 
 _Note: GKE is a Container First system while GAE is a Code First system._
 
