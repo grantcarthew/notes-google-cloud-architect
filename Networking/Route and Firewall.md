@@ -23,7 +23,7 @@ Regardless of the network type (default, auto, or custom), when you create a sub
 
 Networks can have both ingress and egress firewall rules.
 
-* Only supports allow rules.
+* Supports allow and deny rules.
 * Rules can match a single IP address or a range.
 * Rules can be applied to tags.
 * Default rules are only created for auto-type networks.
