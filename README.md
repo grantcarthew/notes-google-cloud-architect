@@ -51,3 +51,9 @@ If you wish to build the documents yourself there is a PowerShell script in the 
 1. Run the PowerShell script by typing `.\ConvertTo-PDF.ps1`.
 
 The script will delete the current `pdf` directory and then recreate it by building the documents from the markdown files.
+
+## Change Log
+
+* 2019-10-01
+* 2018-03-01
+
