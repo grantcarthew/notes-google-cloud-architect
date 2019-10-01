@@ -77,6 +77,8 @@ Creating a Bucket as either Nearline or Coldline will set its location type to M
 
 ## Access Control
 
+[Options:](https://cloud.google.com/storage/docs/access-control/)
+
 * IAM - Broad control but not fine-grained control over object in Buckets.
   * [Bucket Policy Only (Beta)](https://cloud.google.com/storage/docs/bucket-policy-only) - Disables ACLs: access to Cloud Storage resources exclusively through Cloud IAM.
 * ACLs - Control access to individual object on Buckets. Supports Owner, Writer, and Reader permissions.
