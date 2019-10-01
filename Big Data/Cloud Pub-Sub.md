@@ -2,6 +2,7 @@
 
 [Google Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/overview) brings the scalability, flexibility, and reliability of enterprise message-oriented middleware to the cloud.
 
+[![Cloud Pub/Sub for global messaging and event ingestion](https://cloud.google.com/images/pubsub/global-messaging-and-event-ingestion.png)](https://cloud.google.com/pubsub/)
 ## Features
 
 * Scalable, reliable messaging.

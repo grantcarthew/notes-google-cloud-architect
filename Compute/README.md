@@ -1,5 +1,7 @@
 # Google Cloud Compute
 
+[![Compute Options](https://storage.googleapis.com/gweb-cloudblog-publish/images/GCP2Bcompute2Bservice2Bladder51qi.max-1200x1200.PNG)](https://cloud.google.com/blog/products/gcp/time-to-hello-world-vms-vs-containers-vs-paas-vs-faas)
+
 |               | Compute Engine     | Kubernetes Engine   | App Eng Standard            | App Eng Flexible     | Cloud Functions            |
 |---------------|--------------------|---------------------|-----------------------------|----------------------|----------------------------|
 | Language      | Any                | Any                 | Java,Python,Node.JS,Go,PHP  | Any                  | Node.JS,Python             |
@@ -13,7 +15,7 @@ _Note: GKE is a Container First system while GAE is a Code First system._
 
 Containers on GCE: When you absolutely want control over the VM resources also want the benefit of Docker image development.
 
-GAE Standard: Very fast scale-up, scales down to zero, no Docker containers.
+GAE Standard: Very fast scale-up, scales down to zero, no Docker containers.  
 
 GAE Flexible: Code first, developer-focused, simpler to use than GKE.
 

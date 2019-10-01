@@ -2,7 +2,7 @@
 
 There are a number of different storage options in the Google Cloud Platform.
 
-[Choosing a Storage Option](https://cloud.google.com/storage-options/)
+[![Choosing a Storage Option](/Storage/storage-options.svg)](https://cloud.google.com/products/storage/)
 
 
 ## Comparing Storage Options

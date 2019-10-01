@@ -1,4 +1,7 @@
-# GCP Products and Services 
+# GCP Products and Services
+
+* [Google Cloud Platform Services Summary](https://cloud.google.com/terms/services)
+* [Every product in the Google Cloud family described in <=4 words](https://github.com/gregsramblings/google-cloud-4-words)
 
 ## Administrative
 

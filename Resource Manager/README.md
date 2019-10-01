@@ -11,8 +11,6 @@
 
 ## Folders
 
-
-
 ## Projects
 
 * Track resources and quota usage.

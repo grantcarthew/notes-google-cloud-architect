@@ -6,6 +6,8 @@ It separates data processing requirements from data source being batch or stream
 
 Based off the [Apache Beam](https://beam.apache.org/) open-source project.
 
+[![Data Transformation with Cloud Dataflow](https://cloud.google.com/dataflow/images/diagram-dataflow.png)](https://cloud.google.com/dataflow/)
+
 ## Features
 
 * No-ops managed service for executing scalable and reliable data piplines.

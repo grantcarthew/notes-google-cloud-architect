@@ -3,6 +3,14 @@
 Google Cloud Platform is build on top of a Software Defined Network.
 It is built on a global fiber infrastructure. It is one of the world's largest and fastest networks.
 
+## Comparison of Interconnect Options
+
+[![Comparison of Interconnect Options](https://cloud.google.com/solutions/images/patterns-for-connecting-other-csps-with-gcp-6-comparison.svg)](https://cloud.google.com/solutions/patterns-for-connecting-other-csps-with-gcp)
+
+## Networking Tier Options
+
+[![Networking Tier Options](https://cloud.google.com/images/network-tiers/decision-tree.svg)](https://cloud.google.com/network-tiers/)
+
 ## Virtual Private Cloud Network
 
 A project can contain up to 5 VPC networks.

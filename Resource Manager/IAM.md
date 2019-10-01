@@ -2,6 +2,8 @@
 
 IAM Resource Hierarchy: Organization => Project => Resources
 
+[![Authentication Decision Tree](https://storage.googleapis.com/gweb-cloudblog-publish/images/4_jqGRVMm.max-1000x1000.png)](https://cloud.google.com/blog/products/identity-security/identity-and-authentication-the-google-cloud-way)
+
 ## Organization Node
 
 * Organization is created by Google Sales.
