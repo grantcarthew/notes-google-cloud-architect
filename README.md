@@ -43,6 +43,7 @@ The script will create a `pdf` directory by building the documents from the mark
     * Big Data - Cloud IoT Core
   * Removals:
     * PDF directory. Please build your own.
+    * Diagrams Directory. Images have been integrated with the service documents.
   * Updates:
     * README updated.
 * 2018-12: Contributions added
