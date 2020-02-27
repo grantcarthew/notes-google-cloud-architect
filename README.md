@@ -24,6 +24,8 @@ Install [Mark Text (Windows)](https://marktext.app/) or [ghostwriter (Linux)](ht
     * Cloud Firestore
     * Cloud Dataprep
     * Cloud Data Loss Prevention
+  * Updates:
+    * README updated.
 * 2019-10:
   * Additions:
     * Cloud Storage - Bucket Policy Only (beta)
