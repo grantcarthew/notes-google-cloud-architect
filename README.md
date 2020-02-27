@@ -19,7 +19,7 @@ Install [Mark Text (Windows)](https://marktext.app/) or [ghostwriter (Linux)](ht
 
 ## Change Log
 
-* 2020-01:
+* 2020-02:
   * Additions:
     * Cloud Firestore
     * Cloud Dataprep
