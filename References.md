@@ -6,6 +6,7 @@
 * [Solutions](https://cloud.google.com/solutions/)
 * [Building Scalable and Resilient Apps](https://cloud.google.com/solutions/scalable-and-resilient-apps)
 * [Google Cloud Architect Professional by @agasthik](https://github.com/agasthik/GoogleCloudArchitectProfessional)
+* [Google Cloud Platform Certification resources by @sathishvj](https://github.com/sathishvj/awesome-gcp-certifications) 
 
 ## Google Cloud Platform
 
